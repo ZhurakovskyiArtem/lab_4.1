@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T13:16:43.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50" etag="PMU7_bh8Q9B1W4rWiBvE" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T13:18:25.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50" etag="myuV1hq091L7EwrFRqDE" version="15.3.8" type="github">
   <diagram id="cLwzGArzSXoJrb6ukWoc" name="Page-1">
-    <mxGraphModel dx="2120" dy="3589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1855" dy="3433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,11 +52,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-13" value="S *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="-1210" width="160" height="40" as="geometry" />
+          <mxGeometry x="980" y="-1209" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-13" target="4ZTrvkUogG63wftfnumu-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="-1280" as="targetPoint" />
+            <mxPoint x="1040" y="-1279" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -64,7 +64,7 @@
           <mxGeometry x="340" y="-1270" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-17" value="i++" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="-1320" width="120" height="40" as="geometry" />
+          <mxGeometry x="1000" y="-1319" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-15" target="4ZTrvkUogG63wftfnumu-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -279,6 +279,18 @@
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-76" value="" style="ellipse;html=1;shape=endState;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="825" y="-530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1IfukztHIOOhffw5mtlt-1" value="S *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1IfukztHIOOhffw5mtlt-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1IfukztHIOOhffw5mtlt-1" target="1IfukztHIOOhffw5mtlt-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="-1220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IfukztHIOOhffw5mtlt-3" value="i++" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-1270" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

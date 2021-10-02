@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T13:19:56.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50" etag="5i1VZTXcqRFuvR92qAxp" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T11:00:35.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50" etag="jGvG6SOASJZ1f5XYEWf7" version="15.4.0" type="github">
   <diagram id="cLwzGArzSXoJrb6ukWoc" name="Page-1">
-    <mxGraphModel dx="1060" dy="2964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="742" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-4" value="ввід i,S" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-4" value="ввід i,P" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="-1520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-4" target="4ZTrvkUogG63wftfnumu-6" edge="1">
@@ -22,7 +22,7 @@
             <mxPoint x="380" y="-1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-6" value="S = 0" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-6" value="P = 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="-1440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-6" target="4ZTrvkUogG63wftfnumu-8" edge="1">
@@ -51,7 +51,7 @@
             <mxPoint x="380" y="-1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-13" value="S *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-13" value="P *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="-1209" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-13" target="4ZTrvkUogG63wftfnumu-17" edge="1">
@@ -81,7 +81,7 @@
             <mxPoint x="700" y="-1250.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-20" value="вивід S" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-20" value="вивід P" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="-1050" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-20" target="4ZTrvkUogG63wftfnumu-22" edge="1">
@@ -89,13 +89,13 @@
             <mxPoint x="380" y="-950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-22" value="S = 0" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-22" value="P = 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="-950" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ZTrvkUogG63wftfnumu-23" target="4ZTrvkUogG63wftfnumu-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-23" value="вивід S" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-23" value="вивід P" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="-350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-22" target="4ZTrvkUogG63wftfnumu-25" edge="1">
@@ -123,7 +123,7 @@
         <mxCell id="4ZTrvkUogG63wftfnumu-35" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-30" target="4ZTrvkUogG63wftfnumu-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-30" value="S *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-30" value="P *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="-650" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-33" value="i++" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
@@ -166,7 +166,7 @@
         <mxCell id="4ZTrvkUogG63wftfnumu-43" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="-1580" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-44" value="S = 0" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-44" value="P = 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="-1520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-44" target="4ZTrvkUogG63wftfnumu-47" edge="1">
@@ -209,7 +209,7 @@
             <mxPoint x="840" y="-1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-55" value="вивід S" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-55" value="вивід P" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="-1110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-55" edge="1">
@@ -217,7 +217,7 @@
             <mxPoint x="840" y="-1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-57" value="S = 0" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-57" value="P = 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="-1010" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-57" target="4ZTrvkUogG63wftfnumu-59" edge="1">
@@ -257,7 +257,7 @@
             <mxPoint x="840" y="-630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-71" value="S *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-71" value="P *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="-730" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-71" target="4ZTrvkUogG63wftfnumu-73" edge="1">
@@ -269,7 +269,7 @@
         <mxCell id="4ZTrvkUogG63wftfnumu-73" value="i--" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="1000" y="-830" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4ZTrvkUogG63wftfnumu-74" value="вивід S" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="4ZTrvkUogG63wftfnumu-74" value="вивід P" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="-630" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ZTrvkUogG63wftfnumu-75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4ZTrvkUogG63wftfnumu-74" edge="1">
@@ -280,7 +280,7 @@
         <mxCell id="4ZTrvkUogG63wftfnumu-76" value="" style="ellipse;html=1;shape=endState;hachureGap=4;pointerEvents=0;fillColor=#030303;" parent="1" vertex="1">
           <mxGeometry x="825" y="-530" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1IfukztHIOOhffw5mtlt-1" value="S *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="1IfukztHIOOhffw5mtlt-1" value="P *= (sin(i) * sin(i) + cos(1. / i) * cos(1. / i)) / (i * i)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="-1150" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1IfukztHIOOhffw5mtlt-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1IfukztHIOOhffw5mtlt-1" target="1IfukztHIOOhffw5mtlt-3" edge="1">
